@@ -1,6 +1,6 @@
 from monads.maybe import Just, Nothing
 
-def convert_to_touples(content):
+def convert_to_touples_line_splitlines(content):
     lines = content.splitlines()
 
     column_one = []

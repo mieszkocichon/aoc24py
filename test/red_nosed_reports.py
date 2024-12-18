@@ -7,7 +7,7 @@ class TestRedNosedScenario(unittest.TestCase):
 
         content = get_filtered_reports(file_path)
 
-        self.assertEqual(len(content), 213)
+        self.assertEqual(len(content), 285)
 
 
 if __name__ == '__main__':
